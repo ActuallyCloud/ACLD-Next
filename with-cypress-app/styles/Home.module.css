@@ -1,22 +1,68 @@
 .logo_holder {
   margin: 0px;
-  padding: 0px;
+  padding: 25px;
+  width: 40vh;
+  max-width: 60vw;
+  margin: auto;
+  vertical-align: middle;
 }
 
 .logo {
-  width: 400px;
+  width: 100%;
+  margin: 0px;
 }
 
-.front_page {
+.icon {
+  width: 2.5vmin;
+  padding: 1vmax;
+  opacity: 50%;
+  cursor: pointer;
+}
+
+.mid_align {
   display: flex;
-  text-align: center;
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  vertical-align: middle;
+  text-align: center;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.mid_bound {
+  text-align: center;
 
   margin: 0px;
   padding: 10px;
-  min-height: 100vh;
+}
+
+.midfront {
+  padding-top: 5vh;
+}
+
+.main_color_section {
   background: rgb(0, 172, 144);
-  background: linear-gradient(45deg, rgba(0, 172, 144, 0.6) 0%, rgba(34, 62, 145, 0.6) 51%, rgba(146, 0, 156, 0.6) 100%);
+  background: linear-gradient(45deg, rgba(0, 172, 144, 0.7) 0%, rgba(34, 62, 145, 0.7) 51%, rgba(146, 0, 156, 0.7) 100%);
+
+  margin: 0px;
+  padding: 1vmax 2vmax;
+  min-height: 100vh;
+}
+
+.indexflexdiv {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+}
+
+.textboxes {
+  flex: 0 0 50vmin;
+  border: 1px none;
+  min-height: 100px;
+  text-align: center;
+  margin: 2vmax;
+  vertical-align: middle;
+  border-radius: 10px;
 }

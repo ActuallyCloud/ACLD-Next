@@ -1,0 +1,36 @@
+.navitem {
+  display: inline-block;
+  margin: 0px;
+  padding: 5px 10px;
+  background-color: transparent;
+  font-size: 3vmin;
+  font-weight: 700;
+  color: white;
+}
+
+.navitem a {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.navitem a:hover {
+  opacity: 70%
+}
+
+.navbar {
+  margin: 0em;
+  padding: 0em;
+  text-align: left;
+  background-color: transparent;
+}
+
+.footerdiv {
+  padding: 1vh 5vw;
+  margin: 0;
+  text-align: center;
+  font-size: 1.5vmin;
+}
