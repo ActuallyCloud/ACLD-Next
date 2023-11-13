@@ -7,8 +7,16 @@
   width: 400px;
 }
 
-.midalign_page {
-  text-align: center;
+.front_page {
   display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
   vertical-align: middle;
+
+  margin: 0px;
+  padding: 10px;
+  min-height: 100vh;
+  background: rgb(0, 172, 144);
+  background: linear-gradient(45deg, rgba(0, 172, 144, 0.6) 0%, rgba(34, 62, 145, 0.6) 51%, rgba(146, 0, 156, 0.6) 100%);
 }
