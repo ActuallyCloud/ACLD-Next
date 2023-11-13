@@ -11,10 +11,9 @@ html, body {
   -ms-overflow-style: none;
   pointer-events: none;
   min-width: 400px;
-}
-
-body {
-  max-width: 1200px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
 }
 
 html::-webkit-scrollbar {
@@ -30,11 +29,4 @@ a {
 a:hover {
   color: #1f58d3;
   text-decoration: none;
-}
-
-.midalign-page {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  display: flex;
 }

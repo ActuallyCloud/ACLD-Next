@@ -1,9 +1,14 @@
 .logo_holder {
   margin: 0px;
   padding: 0px;
-  border: 1px solid white;
 }
 
 .logo {
-  width: 100px;
+  width: 400px;
+}
+
+.midalign_page {
+  text-align: center;
+  display: flex;
+  vertical-align: middle;
 }

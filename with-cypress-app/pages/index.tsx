@@ -13,12 +13,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="midalign-page">
-        <motion.div 
-          className={styles.logo_holder}
-          animate={{ transform: "rotate(900deg)" }}
-          transition={{ ease: "easeOut", duration: 4 }}>
-          <img src="/logo.png" className={styles.logo}></img>
+      <div className={styles.midalign_page}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1 }} >
+            
+          <motion.div
+            className={styles.logo_holder}
+            animate={{ transform: "rotate(900deg)" }}
+            transition={{ ease: "easeOut", duration: 4 }} >
+            <img src="/logo.png" className={styles.logo}></img>
+          </motion.div>
+
+          <h1>Hello!</h1>
+          <h3>I'm a fourth-year CS student with a focus in human-computer interaction.</h3>
         </motion.div>
       </div>
     </div>
