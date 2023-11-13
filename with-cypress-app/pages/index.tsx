@@ -2,34 +2,25 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
+import { motion } from 'framer-motion';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>ACLD</title>
         <meta name="description" content="The new version of the ACLD website, but created with the React framework Next.js" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          Some stuff goes here!
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        Powered by Vercel
-      </footer>
+      <div className="midalign-page">
+        <motion.div 
+          className={styles.logo_holder}
+          animate={{ transform: "rotate(900deg)" }}
+          transition={{ ease: "easeOut", duration: 4 }}>
+          <img src="/logo.png" className={styles.logo}></img>
+        </motion.div>
+      </div>
     </div>
   )
 }

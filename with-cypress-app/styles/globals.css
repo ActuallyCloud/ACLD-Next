@@ -9,6 +9,12 @@ html, body {
   color: #DDDDDD;
   scrollbar-width: none;
   -ms-overflow-style: none;
+  pointer-events: none;
+  min-width: 400px;
+}
+
+body {
+  max-width: 1200px;
 }
 
 html::-webkit-scrollbar {
@@ -18,8 +24,17 @@ html::-webkit-scrollbar {
 a {
   color: #1fb2d3;
   text-decoration: none;
+  pointer-events: auto;
 }
 
-* {
-  /*box-sizing: border-box;*/
+a:hover {
+  color: #1f58d3;
+  text-decoration: none;
+}
+
+.midalign-page {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
