@@ -18,7 +18,7 @@ export default function Home() {
         initial={{ opacity: 0.8 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0.8 }}
-        transition={{ ease: "easeOut", duration: 1 }} >
+        transition={{ ease: "easeOut", duration: 1.5 }} >
         <div className={styles.main_color_section}>
           <HeaderComponent page={"H"} />
           <motion.div
@@ -31,7 +31,7 @@ export default function Home() {
               <motion.div
                 className={styles.logo_holder}
                 animate={{ transform: "rotate(270deg)" }}
-                transition={{ ease: "easeOut", duration: 5 }} >
+                transition={{ ease: "easeOut", duration: 4 }} >
                 <img src="/imgs/logo.png" className={styles.logo}></img>
               </motion.div>
               <h1>Hello!</h1>

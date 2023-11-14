@@ -1,0 +1,41 @@
+.galleryimgv {
+   flex: 0 0 30vmin;
+   margin: 10px;
+   width: 30vmin;
+   border: 1px none;
+   border-radius: 10px;
+   outline: 2px solid #AAAAAA;
+   outline-offset: -2px;
+}
+
+.galleryimgh {
+   flex: 0 0 40vmin;
+   margin: 10px;
+   height: 40vmin;
+   border: 1px none;
+   border-radius: 10px;
+   outline: 2px solid #AAAAAA;
+   outline-offset: -2px;
+}
+
+.indexflexdiv {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: flex-start;
+   align-content: center;
+   justify-content: center;
+}
+
+.midbound {
+   width: 80%;
+   max-width: 1200px;
+   margin: auto;
+   padding: 10px;
+   text-align: center;
+   align-items: center;
+}
+
+.tinytext {
+   padding-top: 5vh;
+   font-size: 1.5vmin;
+}

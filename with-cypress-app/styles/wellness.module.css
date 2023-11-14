@@ -1,0 +1,87 @@
+.main_color_section {
+   background: rgb(0, 161, 77);
+   background: linear-gradient(135deg, rgba(0, 161, 77, 0.8) 0%, rgba(0, 125, 171, 0.8) 100%);
+
+   margin: 0;
+   padding: 0;
+   min-height: 100vh;
+}
+
+.logo_holder {
+   margin: 0px;
+   padding: 25px;
+   width: 40vh;
+   max-width: 60vw;
+   margin: auto;
+   vertical-align: middle;
+}
+
+.logo {
+   width: 100%;
+   margin: 0px;
+}
+
+.icon {
+   width: 2.5vmin;
+   padding: 1vmax;
+   opacity: 50%;
+   cursor: pointer;
+}
+
+.mid_align {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+
+   margin: 0px;
+   padding: 0px;
+}
+
+.mid_bound {
+   text-align: center;
+
+   margin: 0px;
+   padding: 10px;
+}
+
+.commandsflexdiv {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: flex-start;
+   align-content: center;
+   justify-content: center;
+}
+
+.commandsflexitem {
+   flex: 0 0 60px;
+   margin: 0px 10px;
+   color: #AAAAAA;
+}
+
+.indexflexdiv {
+   display: flex;
+   flex-flow: row wrap;
+   align-items: flex-start;
+   align-content: center;
+   justify-content: center;
+   padding-left: 2vw;
+   padding-right: 2vw;
+}
+
+.indexflexitem {
+   flex: 0.25 0.25 30vw;
+   padding: 2vw;
+}
+
+.button {
+   border: 1px solid white;
+   color: white;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.button:hover {
+   color: #AAAAAA;
+   border: 1px solid #AAAAAA;
+}
