@@ -9,8 +9,8 @@ export default function Wellness() {
    return (
       <div>
          <Head>
-            <title>Gallery - ACLD</title>
-            <meta name="description" content="See a gallery of past UI/UX designs and software that I've created!" />
+            <title>Wellness - ACLD</title>
+            <meta name="description" content="Wellness is an integration for your Discord server that can help your members feel better." />
             <link rel="icon" href="/favicon.ico" />
          </Head>
          <motion.div
