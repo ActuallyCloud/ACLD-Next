@@ -46,10 +46,10 @@ export default function HeaderComponent(page) {
   return (
     <AnimatePresence>
       {isVisible && (<motion.div
-      initial={{ opacity: 0, transform: "translateY(-10px)" }}
+      initial={{ opacity: 0.2, transform: "translateY(-5px)" }}
       animate={{ opacity: 1, transform: "translateY(0px)" }}
-      exit={{ opacity: 0, transform: "translateY(-10px)" }}
-      transition={{ ease: "easeOut", duration: 0.2 }} >
+      exit={{ opacity: 0.2, transform: "translateY(-5px)" }}
+      transition={{ ease: "easeOut", duration: 0.4 }} >
         <nav className={styles.navbar} onClick = { toggleVisibility } >
         <ul>
           <li className={styles.navitem}>{renderHome()}</li>
