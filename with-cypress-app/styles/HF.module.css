@@ -1,11 +1,10 @@
 .navitem {
   display: inline-block;
   margin: 0px;
-  padding: 5px 10px;
+  padding: 2px 10px;
   background-color: transparent;
-  font-size: 3vmin;
+  font-size: 3vh;
   font-weight: 700;
-  color: white;
 }
 
 .navitem a {
@@ -17,13 +16,17 @@
   color: white;
 }
 
+.navitem p {
+  opacity: 30%;
+}
+
 .navitem a:hover {
-  opacity: 70%
+  opacity: 60%;
 }
 
 .navbar {
   margin: 0em;
-  padding: 0em;
+  padding: 1vmax 2vmax;
   text-align: left;
   background-color: transparent;
 }

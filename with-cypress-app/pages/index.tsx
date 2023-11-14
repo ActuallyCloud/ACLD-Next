@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/home.module.css'
 import HeaderComponent from '../components/header'
 import FooterComponent from '../components/footer'
 import { motion } from 'framer-motion'
@@ -20,19 +20,19 @@ export default function Home() {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ ease: "easeOut", duration: 1 }} >
-        <HeaderComponent />
+        <HeaderComponent page={"H"}/>
         <motion.div
           className={styles.mid_align}
           initial={{ opacity: 0, transform: "translateY(25px)" }}
           animate={{ opacity: 1,  transform: "translateY(0px)" }}
           exit={{ opacity: 0, transform: "translateY(25px)" }}
           transition={{ ease: "easeOut", duration: 1 }} >
-          <div className={styles.midfront}>
+          <div>
             <motion.div
               className={styles.logo_holder}
               animate={{ transform: "rotate(360deg)" }}
               transition={{ ease: "easeOut", duration: 10 }} >
-              <img src="/logo.png" className={styles.logo}></img>
+              <img src="/imgs/logo.png" className={styles.logo}></img>
             </motion.div>
             <h1>Hello!</h1>
             <h3>I'm a fourth-year CS student with a focus in human-computer interaction.</h3>
@@ -42,7 +42,7 @@ export default function Home() {
               exit={{ opacity: 0 }}
               transition={{ ease: "easeOut", delay: 1, duration: 1 }} >
               <Link to="works" smooth>
-                <img src="/down_arrow.png" className={styles.icon}></img>
+                <img src="/imgs/down_arrow.png" className={styles.icon}></img>
               </Link>
             </motion.div>
           </div>
@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div className={styles.textboxes}>
             <h3>ACLD Website</h3>
-            <p>I created this website to host my online preseence and serve as a frontend webpage for some of my other services. <a href="/ext/github-acld">The source code for ACLD is available on my GitHub here</a>.</p>
+            <p>I created this website to host my online presence and serve as a frontend webpage for some of my other services. <a href="/ext/github-acld">The source code for ACLD is available on my GitHub here</a>.</p>
           </div>
         </div>
       </div>

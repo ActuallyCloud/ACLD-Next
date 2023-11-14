@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import styles from '../styles/HF.module.css'
+import styles from '../styles/hf.module.css'
 import { motion } from 'framer-motion';
 
 export default function FooterComponent() {
