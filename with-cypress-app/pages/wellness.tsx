@@ -26,7 +26,7 @@ export default function Wellness() {
                   animate={{ opacity: 1, transform: "translateY(0px)" }}
                   exit={{ opacity: 0, transform: "translateY(25px)" }}
                   transition={{ ease: "easeOut", duration: 1 }} >
-                  <div>
+                  <div className={styles.header_text}>
                      <motion.div
                         className={styles.logo_holder}
                         animate={{ transform: "rotate(360deg)" }}
@@ -55,7 +55,7 @@ export default function Wellness() {
                   </div>
                   <div className={styles.indexflexitem}>
                      <h3>You matter too.</h3>
-                     <p>Wellness helps you get in touch with support groups, and do breathing exercises.</p>
+                     <p>Wellness helps you foster communication with other server members, get in touch with support groups, and do breathing exercises when you need to.</p>
                   </div>
                   <div className={styles.indexflexitem}>
                      <h3>Involve your friends.</h3>
@@ -69,7 +69,7 @@ export default function Wellness() {
                   <div className={styles.indexflexitem}>
                      <h3>Verified and secure.</h3>
                      <p>Wellness is part of Discord's official bot verification program, and your message contents are not read by the
-                        bot unless otherwise stated.</p>
+                        bot. Logs are anonymous and kept as minimal as possible.</p>
                   </div>
                </div>
                <h2>Commands</h2>

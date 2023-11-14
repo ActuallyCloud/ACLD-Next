@@ -1,0 +1,34 @@
+.tos {
+  padding: 3vw;
+  font-size: 2.25vmin;
+}
+
+.header_text {
+  padding: 3vw;
+}
+
+.mid_align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: 0px;
+  padding: 0px;
+}
+
+.mid_bound {
+  text-align: center;
+
+  margin: 0px;
+  padding: 10px;
+}
+
+.main_color_section {
+  background: rgb(161, 0, 52);
+  background: linear-gradient(225deg, rgba(161, 0, 52, 0.7) 0%, rgba(150, 0, 152, 0.7) 100%);
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

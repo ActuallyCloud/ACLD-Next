@@ -33,7 +33,7 @@ export default function Contact() {
               <a href={process.env.discord} target="_blank">
                 <img src="/imgs/discord.png" className={styles.fleximg}></img>
               </a>
-              <p>Support Server</p>
+              <p>Discord Server</p>
             </div>
             <div className={styles.contactflexitem}>
               <a href={process.env.email}>

@@ -87,3 +87,8 @@
    color: white;
    border: 2px solid white;
 }
+
+.header_text {
+   padding-left: 3vmax;
+   padding-right: 3vmax;
+}

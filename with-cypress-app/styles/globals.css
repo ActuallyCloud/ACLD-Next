@@ -15,7 +15,7 @@ html, body {
   scrollbar-width: none;
   -ms-overflow-style: none;
   pointer-events: none;
-  font-size: 3vmin;
+  font-size: 2vh;
 }
 
 html::-webkit-scrollbar {

@@ -19,6 +19,11 @@
   cursor: pointer;
 }
 
+.header_text {
+  padding-left: 3vmax;
+  padding-right: 3vmax;
+}
+
 .mid_align {
   display: flex;
   justify-content: center;

@@ -46,9 +46,9 @@ export default function HeaderComponent(page) {
   return (
     <AnimatePresence>
       {isVisible && (<motion.div
-      initial={{ opacity: 0.5 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0.5 }}
+      initial={{ opacity: 0.5, transform: "translateY(-5px)" }}
+      animate={{ opacity: 1, transform: "translateY(0px)" }}
+      exit={{ opacity: 0.5, transform: "translateY(-5px)" }}
       transition={{ ease: "easeOut", duration: 0.4 }} >
         <nav className={styles.navbar} onClick = { toggleVisibility } >
         <ul>
@@ -56,7 +56,7 @@ export default function HeaderComponent(page) {
           <li className={styles.navitem}>{renderContact()}</li>
           <li className={styles.navitem}>{renderGallery()}</li>
           <li className={styles.navitem}>{renderWellness()}</li>
-          <li className={styles.navitem}><a href="/ext/status">Outage?</a></li>
+          <li className={styles.navitem}><a href={process.env.status}>Outage?</a></li>
         </ul>
       </nav>
       </motion.div>)}

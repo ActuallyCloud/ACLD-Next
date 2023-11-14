@@ -27,11 +27,11 @@ export default function Home() {
             animate={{ opacity: 1, transform: "translateY(0px)" }}
             exit={{ opacity: 0, transform: "translateY(25px)" }}
             transition={{ ease: "easeOut", duration: 1 }} >
-            <div>
+            <div className={styles.header_text}>
               <motion.div
                 className={styles.logo_holder}
                 animate={{ transform: "rotate(270deg)" }}
-                transition={{ ease: "easeOut", duration: 4 }} >
+                transition={{ ease: "easeOut", duration: 3 }} >
                 <img src="/imgs/logo.png" className={styles.logo}></img>
               </motion.div>
               <h1>Hello!</h1>
