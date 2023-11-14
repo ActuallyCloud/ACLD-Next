@@ -15,17 +15,17 @@
   text-align: left;
   text-decoration: none;
   cursor: pointer;
-  color: white;
+  color: #AAAAAA;
 }
 
 .navitem p {
   margin: 0;
   padding: 0;
-  opacity: 30%;
+  color:white;
 }
 
 .navitem a:hover {
-  opacity: 60%;
+  color: white;
 }
 
 .navbar {
