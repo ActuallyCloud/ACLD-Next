@@ -29,13 +29,13 @@ export default function Contact() {
           <h3>Find me elsewhere!</h3>
           <div className={styles.contactflexdiv}>
             <div className={styles.contactflexitem}>
-              <a href={process.env.github} rel="noreferrer" target="_blank">
+              <a href={process.env.github} rel="noopener noreferrer" target="_blank">
                 <img src="/imgs/github.png" className={styles.fleximg}></img>
               </a>
               <p>GitHub</p>
             </div>
             <div className={styles.contactflexitem}>
-              <a href={process.env.discord} rel="noreferrer" target="_blank">
+              <a href={process.env.discord} rel="noopener noreferrer" target="_blank">
                 <img src="/imgs/discord.png" className={styles.fleximg}></img>
               </a>
               <p>Discord Server</p>
