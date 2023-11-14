@@ -20,7 +20,12 @@ export default function Contact() {
         exit={{ opacity: 0.8 }}
         transition={{ ease: "easeOut", duration: 1.5 }} >
         <HeaderComponent page={"C"} />
-        <div className={styles.mid_bound}>
+        <motion.div
+          className={styles.mid_bound}
+          initial={{ opacity: 0.5, transform: "translateY(5px)" }}
+          animate={{ opacity: 1, transform: "translateY(0px)" }}
+          exit={{ opacity: 0.5, transform: "translateY(5px)" }}
+          transition={{ ease: "easeOut", duration: 0.5 }} >
           <h3>Find me elsewhere!</h3>
           <div className={styles.contactflexdiv}>
             <div className={styles.contactflexitem}>
@@ -41,11 +46,9 @@ export default function Contact() {
               </a>
               <p>Email</p>
             </div>
-          </div>
-          <div className={styles.mid_bound}>
             <p className={styles.tinytext}>For obvious reasons, all company logos are trademarks of the respective companies. I make no claim of ownership over any of the images on this page, except for my website's favicon.</p>
           </div>
-        </div>
+        </motion.div>
         <FooterComponent />
       </motion.div>
     </div>

@@ -1,9 +1,8 @@
 .galleryimgv {
-   flex: 0 0 30vmin;
    margin: 10px;
-   width: 30vmin;
+   height: 90vh;
    border: 1px none;
-   border-radius: 10px;
+   border-radius: 15px;
    outline: 2px solid #AAAAAA;
    outline-offset: -2px;
 }
@@ -13,7 +12,7 @@
    margin: 10px;
    height: 40vmin;
    border: 1px none;
-   border-radius: 10px;
+   border-radius: 15px;
    outline: 2px solid #AAAAAA;
    outline-offset: -2px;
 }
@@ -27,8 +26,7 @@
 }
 
 .midbound {
-   width: 80%;
-   max-width: 1200px;
+   width: 80vw;
    margin: auto;
    padding: 10px;
    text-align: center;
@@ -37,5 +35,5 @@
 
 .tinytext {
    padding-top: 5vh;
-   font-size: 1.5vmin;
+   font-size: 2vh;
 }

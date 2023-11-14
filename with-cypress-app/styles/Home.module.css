@@ -10,6 +10,7 @@
 .logo {
   width: 100%;
   margin: 0px;
+  rotate: 180deg;
 }
 
 .icon {

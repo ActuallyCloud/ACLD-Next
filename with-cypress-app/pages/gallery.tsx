@@ -19,7 +19,12 @@ export default function Gallery() {
             exit={{ opacity: 0.8 }}
             transition={{ ease: "easeOut", duration: 0.5 }} >
             <HeaderComponent page={"G"} />
-            <div className={styles.midbound}>
+            <motion.div
+               className={styles.midbound}
+               initial={{ opacity: 0.5, transform: "translateY(5px)" }}
+               animate={{ opacity: 1, transform: "translateY(0px)" }}
+               exit={{ opacity: 0.5, transform: "translateY(5px)" }}
+               transition={{ ease: "easeOut", duration: 0.5 }} >
                <h2>UX Design Examples</h2>
                <h3>Stroogle</h3>
                <p>I worked in a group to create a design concept for a streaming app that allows you to search across multiple streaming services at once. The goal was to design an inclusive and intuitive interface.</p>
@@ -54,9 +59,9 @@ export default function Gallery() {
                   <img src="/imgs/ux/navvy/n3.png" className={styles.galleryimgv}></img>
                </div>
                <p className={styles.tinytext}>
-                  All company logos and images are trademarks of their respective companies. I claim no ownership over other companies logos or icons. All names are fake - any references to real people or real events are coincedence. Icons made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">flaticon.com</a>
+                  All company logos and images are trademarks of their respective companies. I claim no ownership over other companies logos or icons.<br></br> All names are fake - any references to real people or real events are coincedence. Icons made by <a href="https://www.flaticon.com/authors/freepik">Freepik</a> from <a href="https://www.flaticon.com">flaticon.com</a>
                </p>
-            </div>
+            </motion.div>
             <FooterComponent />
          </motion.div>
       </div>

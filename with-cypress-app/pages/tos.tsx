@@ -21,11 +21,17 @@ export default function TOS() {
             transition={{ ease: "easeOut", duration: 1.5 }} >
             <div className={styles.main_color_section}>
                <HeaderComponent />
-               <div className={styles.header_text}>
+               <motion.div
+                  className={styles.header_text}
+                  initial={{ opacity: 0.5, transform: "translateY(5px)" }}
+                  animate={{ opacity: 1, transform: "translateY(0px)" }}
+                  exit={{ opacity: 0.5, transform: "translateY(5px)" }}
+                  transition={{ ease: "easeOut", duration: 0.5 }} >
+               
                   <h1>Terms of Service</h1>
                   <h4>These terms of service and privacy policy govern if and how your data is treated and your rights with regard to use of the services. By using any of the services and/or this website you are agreeing to the most up-to-date version of these policies. Please read them carefully.</h4>
                   <p>Terms last updated: 11/13/2023</p>
-               </div>
+               </motion.div>
             </div>
             <div className={styles.tos}>
                <h4>Terms of Service</h4>

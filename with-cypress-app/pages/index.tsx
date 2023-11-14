@@ -32,7 +32,7 @@ export default function Home() {
                 className={styles.logo_holder}
                 animate={{ transform: "rotate(270deg)" }}
                 transition={{ ease: "easeOut", duration: 3 }} >
-                <img src="/imgs/logo.png" className={styles.logo}></img>
+                <img src="/imgs/logo_tr.png" className={styles.logo}></img>
               </motion.div>
               <h1>Hello!</h1>
               <h3>I'm a fourth-year CS student with a focus in human-computer interaction.</h3>
