@@ -10,9 +10,9 @@ export default function Home() {
     <div>
       <Head>
         <title>ACLD</title>
-        <meta name="description" content="The new version of the ACLD website, but created with the React framework Next.js" />
+        <meta name="description" content="The new version of the ACLD website, but created with the React framework Next.js! It took a bit of time but it was well worth learning, it looks amazing!" />
         <meta name="uptime-check" content={"Up! o.0"}/>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico?" type="image/x-icon"/>
       </Head>
       <noscript>Javascript is disabled or not supported. Please re-enable JavaScript or use a supported browser to view.</noscript>
       <motion.div

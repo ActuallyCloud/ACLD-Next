@@ -11,7 +11,7 @@ export default function Contact() {
       <Head>
         <title>Contact Me - ACLD</title>
         <meta name="description" content="Contact me easily, through multiple platforms." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico?" type="image/x-icon" />
       </Head>
       <motion.div
         className={styles.main_color_section}

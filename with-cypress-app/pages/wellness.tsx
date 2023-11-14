@@ -11,7 +11,7 @@ export default function Wellness() {
          <Head>
             <title>Wellness - ACLD</title>
             <meta name="description" content="Wellness is an integration for your Discord server that can help your members feel better." />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.ico?" type="image/x-icon" />
          </Head>
          <motion.div
             initial={{ opacity: 0.8 }}

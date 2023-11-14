@@ -11,7 +11,7 @@ export default function Gallery() {
          <Head>
             <title>Gallery - ACLD</title>
             <meta name="description" content="See a gallery of past UI/UX designs and software that I've created!" />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.ico?" type="image/x-icon" />
          </Head>
          <motion.div
             initial={{ opacity: 0.8 }}

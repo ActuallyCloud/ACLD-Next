@@ -11,7 +11,7 @@ export default function TOS() {
          <Head>
             <title>Terms of Service - ACLD</title>
             <meta name="description" content="Usage of the ACLD website and services is subject to the terms of service and privacy policy." />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="/favicon.ico?" type="image/x-icon" />
          </Head>
          <noscript>Javascript is disabled or not supported. Please re-enable JavaScript or use a supported browser to view.</noscript>
          <motion.div

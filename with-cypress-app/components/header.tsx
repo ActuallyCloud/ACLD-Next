@@ -21,9 +21,9 @@ export default function HeaderComponent(page) {
 
   const renderContact = () => {
     if (page.page == "C") {
-      return <p>Contact</p>;
+      return <p>Contact Me</p>;
     } else {
-      return <a href="/contact">Contact</a>;
+      return <a href="/contact">Contact Me</a>;
     }
   }
 
