@@ -36,7 +36,7 @@ export default function Gallery() {
                   <img src="/imgs/ux/stroogle/s5.png" className={styles.galleryimgv}></img>
                </div>
                <h3>Linker</h3>
-               <p>I designed a draft UI interface for a new type of messaging app that alleviates the common problem of misdials and is easier to read. <a href={process.env.figma_linker} target="_blank">Try the Figma prototype here</a>.</p>
+               <p>I designed a draft UI interface for a new type of messaging app that alleviates the common problem of misdials and is easier to read. <a href={process.env.figma_linker} rel="noreferrer" target="_blank">Try the Figma prototype here</a>.</p>
                <div className={styles.indexflexdiv}>
                   <img src="/imgs/ux/linker/l1.png" className={styles.galleryimgv}></img>
                   <img src="/imgs/ux/linker/l2.png" className={styles.galleryimgv}></img>
