@@ -66,7 +66,7 @@ export default function Home() {
             </div>
             <div className={styles.textboxes}>
               <h3>ACLD Website</h3>
-              <p>I created this website to host my online presence and serve as a frontend webpage for some of my other services. <a href={process.env.github_acld}>The source code for ACLD is available on my GitHub here</a>.</p>
+              <p>I created this website to host my online presence and serve as a frontend webpage for some of my other services. <a href={process.env.github_acld}>The source code for this version of ACLD is available on my GitHub here</a>. I also keep the source code for the previous static version of this website public, <a href={process.env.github_acld_old}>located here</a>.</p>
             </div>
           </div>
         </div>
