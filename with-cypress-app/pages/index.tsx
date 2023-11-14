@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>ACLD</title>
         <meta name="description" content="The new version of the ACLD website, but created with the React framework Next.js" />
+        <meta name="uptime-check" content={"Up! o.0"}/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <noscript>Javascript is disabled or not supported. Please re-enable JavaScript or use a supported browser to view.</noscript>
