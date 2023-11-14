@@ -1,8 +1,27 @@
-# ACLD-Next Overview
-This repository contains the files and server that currently run my website. It was built with Next.js, a framework for React, and plain HTML/CSS. Currently, the website is hosted on a Ubuntu Linux cloud server.
+# Next.js + Cypress
 
-This project was created from the create-next-app template that is offered by Vercel. The project files are located under the with-cypress-app folder.
+This example shows how to configure Cypress to work with Next.js.
 
-# Notes
-- All images and logos of other companies are their respective properties. I make no claims of the trademark, nor do I endorse any other content except for my own on those sites by linking to them.
-- This repository is provided as a code example for my portfolio. Permission is NOT granted for reproduction or forking for others' use.
+## Deploy your own
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-cypress)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cypress&project-name=with-cypress&repository-name=with-cypress)
+
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+
+```bash
+npx create-next-app --example with-cypress with-cypress-app
+```
+
+```bash
+yarn create next-app --example with-cypress with-cypress-app
+```
+
+```bash
+pnpm create next-app --example with-cypress with-cypress-app
+```
+
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
