@@ -51,6 +51,7 @@
    align-items: flex-start;
    align-content: center;
    justify-content: center;
+   padding: 2vw;
 }
 
 .commandsflexitem {
@@ -75,13 +76,14 @@
 }
 
 .button {
-   border: 1px solid white;
+   border: 2px solid white;
    color: white;
-   border-radius: 5px;
-   padding: 10px;
+   border-radius: 10px;
+   padding: 2vh;
 }
 
 .button:hover {
-   color: #AAAAAA;
-   border: 1px solid #AAAAAA;
+   background: rgb(0, 161, 77);
+   color: white;
+   border: 2px solid white;
 }
