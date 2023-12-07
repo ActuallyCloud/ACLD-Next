@@ -54,19 +54,19 @@ export default function Home() {
           <div className={styles.indexflexdiv}>
             <div className={styles.textboxes}>
               <h3>Wellness</h3>
-              <p>I created a Discord bot that serves cute images and aims to help mental health, and deployed and configured the server to host it. <a href="/wellness">View Wellness here</a>.</p>
-            </div>
-            <div className={styles.textboxes}>
-              <h3>Stroogle</h3>
-              <p>I worked with a team to design the interface for a streaming application that tracks which services offer which movies and shows. <a href="/gallery">Look at the concept designs for Stroogle here</a>.</p>
+              <p>I developed a mental health application using Node.js and external APIs to serve media to over 450 communities worldwide, with the goal of improving mental health. Alongside this application, I deployed storage and web servers, and a community hub for users to give feedback and report problems quickly. <a href="/wellness">View Wellness here</a>.</p>
             </div>
             <div className={styles.textboxes}>
               <h3>Quiz Bowl</h3>
-              <p>For my capstone project, I'm leading a team to create a full-stack software solution that allows quizmasters to access and add questions for their competitions.</p>
+              <p>Previously, quizmasters had to pick out questions and assemble sheets of them manually. I'm managing a team that's building and deploying a robust full-stack cloud solution with Azure that helps automate preparations for quiz bowl events for quizmasters.</p>
             </div>
             <div className={styles.textboxes}>
-              <h3>ACLD Website</h3>
-              <p>I created this website to host my online presence and serve as a frontend webpage for some of my other services. <a href={process.env.github_acld}>The source code for this version of ACLD is available on my GitHub here</a>. I also keep the source code for the previous static version of this website public, <a href={process.env.github_acld_old}>located here</a>.</p>
+              <h3>ACLD</h3>
+              <p>I created this website using Next.js, a framework for React, to host my online presence and serve as a frontend webpage for some of my other services. <a href={process.env.github_ACLD}>The source code for this version of ACLD is available on my GitHub here</a>. I also keep the source code for the previous static version of this website public, <a href={process.env.github_ACLD_old}>located here</a>.</p>
+            </div>
+            <div className={styles.textboxes}>
+              <h3>Stroogle</h3>
+              <p>I collaborated with a team to design an intuitive interface for a media streaming app that allowed users to find what they wanted faster, across multiple platforms at once. <a href="/gallery">Look at the concept designs for Stroogle here</a>.</p>
             </div>
           </div>
         </div>
