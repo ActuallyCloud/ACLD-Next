@@ -58,7 +58,7 @@ export default function Home() {
             </div>
             <div className={styles.textboxes}>
               <h3>Quiz Bowl</h3>
-              <p>Previously, quizmasters had to pick out questions and assemble sheets of them manually. I'm managing a team that's building and deploying a robust full-stack cloud solution with Azure that helps automate preparations for quiz bowl events for quizmasters.</p>
+              <p>Previously, quizmasters had to pick out questions and assemble sheets of them manually. I'm managing a team that's building and deploying a robust full-stack cloud solution with Azure that automates preparations for quiz bowl events for quizmasters.</p>
             </div>
             <div className={styles.textboxes}>
               <h3>ACLD</h3>
