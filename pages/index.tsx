@@ -62,7 +62,7 @@ export default function Home() {
             </div>
             <div className={styles.textboxes}>
               <h3>ACLD</h3>
-              <p>I created this website using Next.js, a framework for React, to host my online presence and serve as a frontend webpage for some of my other services. <a href={process.env.github_ACLD}>The source code for this version of ACLD is available on my GitHub here</a>. I also keep the source code for the previous static version of this website public, <a href={process.env.github_ACLD_old}>located here</a>.</p>
+              <p>I created this website using Next.js, a framework for React, and currently host it on the Azure Cloud Platform to display my online presence and serve as a frontend webpage for some of my other services. <a href={process.env.github_ACLD}>The source code for ACLD is available on my GitHub here</a>. I also keep the source code for the previous static version of this website public, <a href={process.env.github_ACLD_old}>located here</a>.</p>
             </div>
             <div className={styles.textboxes}>
               <h3>Stroogle</h3>
