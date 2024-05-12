@@ -3,6 +3,10 @@
   font-size: 2.25vmin;
 }
 
+.pr_text {
+  padding: 1em 5vw;
+}
+
 .header_text {
   padding: 3vw;
 }
@@ -27,6 +31,15 @@
 .main_color_section {
   background: rgb(161, 0, 52);
   background: linear-gradient(225deg, rgba(161, 0, 52, 0.7) 0%, rgba(150, 0, 152, 0.7) 100%);
+
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.pr_color_section {
+  background: rgb(101, 187, 52);
+  background: linear-gradient(225deg, rgba(125, 1, 192, 0.7) 0%, rgba(100, 0, 252, 0.7) 100%);
 
   margin: 0;
   padding: 0;
