@@ -35,22 +35,23 @@ export default function TOS() {
             <div className={styles.pr_text}>
                <h3>Server Details</h3>
                <p>
-                  <strong>Server IP: planetredwood.acld.me</strong> - Server Version: 1.18.2 - Server Slots: TBD
+                  <strong>Server IP: mc.acld.me</strong> - Server Version: 1.18.2 - Server Slots: TBD
                </p>
                <p>
-                  This minecraft server is based off of the original Planet Redwood server as closely as possible using the last available world and plugin files. The server is running on Minecraft version 1.18.2, and is using the same plugins as the original server. The server also abides by the largely the same rules and policies that Dave used when creating Planet Redwood. The rules for this server are as follows:
+                  This minecraft server is based off of the original Planet Redwood server as closely as possible using the last available world and plugin files. The server is running the same original plugins that were written by Dave and previous students. The server also abides by the largely the same rules and policies that Dave used when creating Planet Redwood. The rules for this server are as follows:
                </p>
                <ul>
                   <li>Do not intentionally cause the server to lag, crash, or otherwise malfunction.</li>
                   <li>Do not use hacks, server exploits, or glitches.</li>
                   <li>Always be respectful and courteous. No griefing or trolling.</li>
-                  <li>First offenses for breaking rules result in a warning. Second offenses will result in a ban.</li>
+                  <li>This server abides by the three strike rule: first offense warning, second offense temp ban, third offense permanent ban.</li>
                </ul>
                <p>In the spirit of keeping the server open to those who may have a different account or username than when playing here, whitelisting will not be used on this server. However, offenders for these rules (as well as anyone who was banned from the previous Planet Redwood) may continue to be banned on this server by IP, account, or both.</p>
-               <p>The original Planet Redwood had a total of 25 slots available for players to join. However, due to a limited number of computing resources, this server's number of available slots may be smaller. I don't anticipate this to be an issue, but is something to note.</p>
+               <p>The original Planet Redwood had a total of 25 slots available for players to join. However, due to a limited number of computing resources, this server's number of available slots may be smaller. I don't anticipate this to be an issue, but is something to note. I am also a busy person, so I make no promises towards updating the server to any version beyond 1.18.2.</p>
+               <p>Found a problem or need help? <a href="/contact">Get in touch</a>.</p>
                <h3>More Fun Things</h3>
-               <p>Dave has stated that he will keep the original Planet Redwood website online, at least for the forseeable future. <a href="http://planetredwood.org">You can view that here</a>.</p>
-               <p>For nostalgia purposes, a copy of the original Planet Redwood info sheet is available <a href="/PlanetRedwoodFeatures.pdf">here</a>.</p>
+               <p>Dave has stated that he will keep the original Planet Redwood website online, at least for the foreseeable future - <a href="http://planetredwood.org">you can view that here</a>. You can also find <a href="http://wonderdave.com">Dave's personal website here</a>.</p>
+               <p>For nostalgia purposes, <a href="/PlanetRedwoodFeatures.pdf">a copy of the original Planet Redwood info sheet is available here</a>. Note that this information is not current.</p>
             </div>
             <FooterComponent />
          </motion.div>

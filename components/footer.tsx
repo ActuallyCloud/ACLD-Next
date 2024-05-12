@@ -12,7 +12,7 @@ export default function FooterComponent() {
       exit={{ opacity: 0, transform: "translateY(10px)" }}
       transition={{ ease: "easeOut", duration: 0.5 }} >
       <p>Usage of my website or services is governed by my <a href="/tos">Terms Of Service and Privacy Policy</a>. For more info, <a href="/contact">contact me</a>.<br></br>
-      Website designed and hosted by me using Next.js, a framework for React. For service status, <a href={process.env.status}>visit the ACLD Instatus page</a>. Thanks for visiting!</p>
+      Website designed using Next.js and hosted using the Azure Cloud Platform. For service status, <a href={process.env.status}>visit the ACLD Instatus page</a>. Thanks for visiting!</p>
     </motion.div>
   )
 }
