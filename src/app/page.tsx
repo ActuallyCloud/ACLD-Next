@@ -47,7 +47,7 @@ export default function Home() {
           <h1 className="text-3xl md:text-5xl p-4">Looking for Aura?</h1>
           <h3 className="text-lg md:text-2xl p-4">You've come to the right place. My website hosts information about my services, my codebase demos, and information about getting in touch.</h3>
           <Link href="#down" className="cursor-default">
-            <Image src="/chevron.png" className="mx-auto m-4 p-4 md:w-16 opacity-100 hover:opacity-70 z-0 animate-fadein-slow cursor-pointer" width={30} height={30} alt="logo"/>
+            <Image src="/chevron.png" className="mx-auto m-4 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 animate-fadein-slow cursor-pointer" width={30} height={30} alt="logo"/>
           </Link>
         </div>
       </div>
