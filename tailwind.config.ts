@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -16,10 +17,24 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       animation: {
-        'spin-slow': 'spin 10s linear infinite',
+        'spin-slow': 'spin 12s linear infinite',
+        'fadein': 'appear 0.25s ease-out',
+        'fadein-fast': 'appear 0.15s ease-out',
+        'rotate': 'rotate 2s ease-out',
+      },
+      keyframes: {
+        appear: {
+          "0%": { opacity: "0", transform: "translateY(-0.5rem)" },
+          "100%": { opacity: "1" },
+        },
+        rotate: {
+          "0%": { opacity: "0", transform: "rotate(-180deg)" },
+          "100%": { opacity: "1" },
+        }
       }
     },
   },
   plugins: [],
 };
+
 export default config;

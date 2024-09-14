@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false);
+  const [nav, setNav] = useState(false);
 
   const links = [
     {
@@ -36,25 +36,12 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full p-4 text-white bg-transparent fixed nav">
-      <div>
-        {/* <h1 className="text-5xl font-signature ml-2"><a className="link-underline hover:transition ease-in-out delay-150 hover:underline hover:decoration-solid" href="">Logo</a></h1> */}
-        <h1 className="text-5xl">
-          <a
-            className="link-underline link-underline-black cursor-default"
-            href="/"
-            rel="noreferrer"
-          >
-            <Image src="/pfp_almost_transparent.png" className="opacity-70 m-4 sm:m-0 sm:opacity-0" alt="logo" width={40} height={40}/>
-          </a>
-        </h1>
-      </div>
-
-      <ul className="hidden sm:flex">
+    <div className="animate-fadein-fast z-10 flex justify-end sm:justify-between items-center w-full p-4 text-white fixed nav">
+      <ul className="hidden sm:flex bg-black/50 rounded-xl">
         {links.map(({ id, link, link_url }) => (
           <li
             key={id}
-            className="nav-links px-4 cursor-pointer capitalize text-xl text-gray-300 hover:text-white duration-100 link-underline h-content w-content"
+            className="nav-links px-6 pb-3 pt-2 cursor-pointer capitalize text-xl text-white hover:text-gray-300 duration-100 link-underline h-content w-content"
           >
             <Link href={link_url}>{link}</Link>
           </li>
@@ -63,19 +50,23 @@ const Navbar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="flex items-center cursor-pointer z-10 text-gray-500 sm:hidden"
+        className="flex justify-between items-center cursor-pointer z-20 text-gray-500 sm:hidden"
       >
-        <Image src="/menu.png" className="opacity-70 m-4" alt="logo" width={30} height={30}/>
+        {nav ? 
+          <Image src="/menu.png" className="opacity-70 p-2 bg-white/40 rounded-lg" alt="logo" width={40} height={40}/>:
+          <Image src="/menu.png" className="opacity-70 p-2 bg-white/20 rounded-lg" alt="logo" width={40} height={40}/>
+        }
       </div>
 
       {nav ? (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-emerald-800 to-indigo-800">
+        <ul className="inline-block animate-fadein-fast justify-center items-center text-center pt-12
+         absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-emerald-900 to-indigo-900">
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl text-gray-200 hover:text-white duration-100"
+              className="px-3 cursor-pointer capitalize py-6 text-3xl text-white hover:text-gray-200 duration-100"
             >
-              <Link onClick={() => setNav(!nav)} href={link}>
+              <Link onClick={() => setNav(!nav)} href={link} className="border-white">
                 {link}
               </Link>
             </li>

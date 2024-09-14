@@ -17,7 +17,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/pfp_fullsize_no_bg.png" sizes="any" />
       </head>
-      <body className="antialiased, font-sans">
+      <body className="antialiased font-sans z-0 scroll-smooth">
         <Navbar />
         {children}
       </body>
