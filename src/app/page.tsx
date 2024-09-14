@@ -72,13 +72,8 @@ export default function Home() {
           <div>
             <h3 className="text-xl lg:text-2xl">Stroogle</h3>
             <p className="text-md py-2 lg:text-lg">I collaborated with a team to design an intuitive interface for a media streaming app that allowed users to find what they wanted faster, across multiple platforms at once.</p>
-            <Link href="/gallery#stroogle" className="cursor-pointer text-blue-500 lg:text-lg">View this website's source code</Link>
+            <Link href="/gallery#stroogle" className="cursor-pointer text-blue-500 lg:text-lg">View the concepts for Stroogle</Link>
           </div>
-        </div>
-      </div>
-      <div className="flex items-center text-center p-8 w-full bg-gray-800">
-        <div className="mx-auto max-w-7xl text-center">
-          <h2 className="text-2xl">More about me</h2>
         </div>
       </div>
       <Footer />
