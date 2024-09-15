@@ -6,7 +6,7 @@ dotenv.config();
 
 export default function Gallery() {
     return (
-        <div className="max-w-7xl p-4 mx-auto cursor-default animate-fadein">
+        <div className="max-w-7xl p-4 py-8 mx-auto cursor-default animate-fadein">
             <div className="p-8 sm:pt-24 text-center">
                 <h1 className="text-2xl sm:text-4xl">Welcome to my gallery!</h1>
                 <p className="text-lg md:text-xl p-4">View my interface concepts and designs here. Any questions? Just <Link href="/contact" className="text-blue-600">contact me</Link>.</p>

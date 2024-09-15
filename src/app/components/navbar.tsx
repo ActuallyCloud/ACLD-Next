@@ -62,13 +62,22 @@ const Navbar = () => {
 
       {nav ? (
         <ul className="inline-block animate-fadein-fast justify-center items-center text-center pt-12
-         absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-gray-800 to-slate-900">
+         absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-gray-800 to-slate-900" id="navmenu">
           {links.map(({ id, link, link_url }) => (
             <li
               key={id}
               className="px-3 cursor-pointer capitalize py-6 text-3xl text-white hover:text-gray-200 duration-100"
             >
-              <Link onClick={() => setNav(!nav)} href={link_url} className="border-white">
+              <Link onClick={() => {
+                  var element = document.getElementById("navmenu");
+                  element?.classList.remove('animate-fadein-fast');
+                  element?.classList.add('animate-fadeout');
+                  setTimeout(toggleNav, 200);
+
+                  function toggleNav() {
+                    setNav(!nav);
+                  }
+              }} href={link_url} className="border-white">
                 {link}
               </Link>
             </li>
