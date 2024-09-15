@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import dotenv from 'dotenv';
+import { stringify } from "querystring";
 dotenv.config();
 
 export default function Contact() {
+    const github = process.env.github
+
     const services = [
         {
             id: 1,
@@ -13,7 +16,7 @@ export default function Contact() {
         },
         {
             id: 2,
-            name: "Discord",
+            name: "Discord Server",
             image: "/discord.png",
             link: "https://discord.com/invite/JQu5k4W6pT"
         },
@@ -26,8 +29,8 @@ export default function Contact() {
     ]
 
     return (
-        <div className="p-8 flex justify-around h-screen align-middle justify-items-center">
-            <div className="p-8 sm:pt-16">
+        <div className="cursor-default flex p-4 text-center min-h-[90vh] items-center mx-auto justify-center">
+            <div className="p-8 sm:pt-16 animate-fadein">
                 <h1 className="text-2xl sm:text-3xl text-center p-4">Let's get in touch!</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
                     {services.map(({ id, name, image, link }) => (

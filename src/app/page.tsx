@@ -1,5 +1,3 @@
-import { link } from "fs";
-import Footer from "./components/footer";
 import Image from "next/image";
 import Link from "next/link";
 import dotenv from 'dotenv';
@@ -41,9 +39,9 @@ export default function Home() {
 
   return (
     <div>
-      <div className="cursor-default flex p-4 text-center min-h-screen items-center mx-auto justify-center bg-gradient-to-tl from-gray-800 to-slate-900">
+      <div className="cursor-default flex p-4 text-center min-h-screen items-center mx-auto justify-center bg-gradient-to-tl from-gray-700 to-slate-800">
         <div className="p-6 py-8 md:p-8 max-w-6xl animate-fadein">
-          <Image src="/pfp_fullsize_no_bg.png" className="mx-auto h-auto w-2/3 md:w-96 animate-rotate" width={256} height={256} alt="logo"/>
+          <Image src="/pfp_fullsize_no_bg.png" className="mx-auto h-auto w-2/3 md:w-96 animate-rotate" width={512} height={512} alt="logo"/>
           <h1 className="text-3xl md:text-5xl p-4">Looking for Aura?</h1>
           <h3 className="text-lg md:text-2xl p-4">You've come to the right place. My website hosts information about my services, my codebase demos, and information about getting in touch.</h3>
           <Link href="#down" className="cursor-default">
@@ -76,7 +74,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }

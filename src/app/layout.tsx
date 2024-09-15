@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/navbar";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "ACLD",
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className="antialiased font-sans z-0 scroll-smooth">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

@@ -31,20 +31,22 @@ const Navbar = () => {
     {
       id: 5,
       link: "outage?",
-      link_url: "/outage",
+      link_url: "https://cloud.instatus.com/",
     },
   ];
 
   return (
-    <div className="animate-fadein-fast z-10 flex justify-end sm:justify-around md:justify-between items-center w-full p-4 text-white fixed nav">
+    <div className="animate-fadein-fast z-10 flex justify-end sm:justify-around lg:justify-between items-center w-full p-4 text-white fixed nav">
       <ul className="hidden sm:flex bg-black/50 rounded-xl">
         {links.map(({ id, link, link_url }) => (
-          <li
-            key={id}
-            className="nav-links px-6 pb-3 pt-2 cursor-pointer capitalize text-xl text-white hover:text-gray-300 duration-100 link-underline h-content w-content"
-          >
-            <Link href={link_url}>{link}</Link>
-          </li>
+          <Link href={link_url}>
+            <li
+              key={id}
+              className="nav-links px-6 pb-3 pt-2 cursor-pointer capitalize text-xl text-white hover:text-gray-300 duration-100 link-underline h-content w-content"
+            >
+              {link}
+            </li>
+          </Link>
         ))}
       </ul>
 
@@ -60,7 +62,7 @@ const Navbar = () => {
 
       {nav ? (
         <ul className="inline-block animate-fadein-fast justify-center items-center text-center pt-12
-         absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-emerald-900 to-indigo-900">
+         absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-gray-800 to-slate-900">
           {links.map(({ id, link, link_url }) => (
             <li
               key={id}
