@@ -30,13 +30,13 @@ const Navbar = () => {
     },
     {
       id: 5,
-      link: "outage",
+      link: "outage?",
       link_url: "/outage",
     },
   ];
 
   return (
-    <div className="animate-fadein-fast z-10 flex justify-end sm:justify-between items-center w-full p-4 text-white fixed nav">
+    <div className="animate-fadein-fast z-10 flex justify-end sm:justify-around md:justify-between items-center w-full p-4 text-white fixed nav">
       <ul className="hidden sm:flex bg-black/50 rounded-xl">
         {links.map(({ id, link, link_url }) => (
           <li
