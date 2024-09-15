@@ -35,18 +35,20 @@ export default function Contact() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4">
                     {services.map(({ id, name, image, link }) => (
                         <div key={id} className="cursor-pointer p-4 border rounded-2xl hover:bg-white/10 duration-100">
-                            {image && 
+                            {link &&
                                 <Link href={link} target="_blank">
-                                    <Image 
-                                        src={image}
-                                        className="mx-auto h-auto w-32 md:w-64 p-4 invert priority" 
-                                        alt="logo"
-                                        width={256}
-                                        height={256}
-                                    />
+                                    {image && 
+                                        <Image 
+                                            src={image}
+                                            className="mx-auto h-auto w-16 sm:w-32 md:w-64 p-4 invert priority" 
+                                            alt="logo"
+                                            width={256}
+                                            height={256}
+                                        />
+                                    }
                                 </Link>
                             }
-                            <p className="text-xl text-center p-2">{name}</p>
+                            <p className="text-md sm:text-lg md:text-xl text-center p-2">{name}</p>
                         </div>
                     ))}
                 </div>

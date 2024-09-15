@@ -37,16 +37,16 @@ const Navbar = () => {
 
   return (
     <div className="animate-fadein-fast z-10 flex justify-end sm:justify-around lg:justify-between items-center w-full p-4 text-white fixed nav">
-      <ul className="hidden sm:flex bg-black/50 rounded-xl">
+      <ul className="hidden sm:flex bg-black/50 py-2 rounded-xl">
         {links.map(({ id, link, link_url }) => (
-          <Link href={link_url}>
-            <li
-              key={id}
-              className="nav-links px-6 pb-3 pt-2 cursor-pointer capitalize text-xl text-white hover:text-gray-300 duration-100 link-underline h-content w-content"
-            >
+          <li
+            key={id}
+            className="nav-links link-underline h-content w-content"
+          >
+            <Link href={link_url} className="px-6 py-2 cursor-pointer capitalize text-xl text-white hover:text-gray-300 duration-100">
               {link}
-            </li>
-          </Link>
+            </Link>
+          </li>
         ))}
       </ul>
 
