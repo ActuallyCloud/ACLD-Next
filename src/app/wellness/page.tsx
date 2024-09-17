@@ -70,20 +70,20 @@ export default function Wellness() {
             <h3 className="text-xl md:text-2xl p-6 md:p-12">More Commands</h3>
             <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 text-neutral-400">
                 <div>
-                    <h3 className="text-lg md:text-xl capitalize p-2">breathe</h3>
+                    <h3 className="text-lg md:text-xl capitalize p-2 text-neutral-300">breathe</h3>
                     <p>Helps you regulate your breathing with a simple breathing exercise.</p>
                 </div>
                 <div>
-                    <h3 className="text-lg md:text-xl p-2">DMs</h3>
+                    <h3 className="text-lg md:text-xl p-2 text-neutral-300">DMs</h3>
                     <p>Adjust your preferences for receiving images through direct messages.</p>
                 </div>
                 <div>
-                    <h3 className="text-lg md:text-xl capitalize p-2">help</h3>
+                    <h3 className="text-lg md:text-xl capitalize p-2 text-neutral-300">help</h3>
                     <p>Not sure where to start? Get help using Wellness.</p>
                 </div>
                 <div>
-                    <h3 className="text-lg md:text-xl capitalize p-2">hotlines</h3>
-                    <p>If you need more help, that information is available at a glance - for you, or others.</p>
+                    <h3 className="text-lg md:text-xl capitalize p-2 text-neutral-300">hotlines</h3>
+                    <p>If you ever need to talk to someone, that information is always available to you.</p>
                 </div>
             </div>
         </div>

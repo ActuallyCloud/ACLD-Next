@@ -51,18 +51,30 @@ const Navbar = () => {
       </ul>
 
       <div
-        onClick={() => setNav(!nav)}
+        onClick={() => {
+          var element = document.getElementById("navmenu");
+          element?.classList.remove('animate-fadein-fast');
+          element?.classList.add('animate-fadeout');
+          setTimeout(toggleNav, 190);
+
+          function toggleNav() {
+            setNav(!nav);
+
+            element?.classList.remove('animate-fadeout');
+            element?.classList.add('animate-fadein-fast');
+          }
+        }}
         className="flex justify-between items-center cursor-pointer z-20 text-gray-500 sm:hidden"
       >
         {nav ? 
-          <Image src="/menu.png" className="opacity-70 p-2 bg-white/40 rounded-lg" alt="logo" width={40} height={40}/>:
-          <Image src="/menu.png" className="opacity-70 p-2 bg-white/20 rounded-lg" alt="logo" width={40} height={40}/>
+          <Image src="/menu.png" className="opacity-70 p-2 bg-white/40 rounded-lg" alt="logo" width={45} height={45}/>:
+          <Image src="/menu.png" className="opacity-70 p-2 bg-white/20 rounded-lg" alt="logo" width={45} height={45}/>
         }
       </div>
 
       {nav ? (
         <ul className="inline-block animate-fadein-fast justify-center items-center text-center pt-12
-         absolute top-0 left-0 w-full h-screen bg-gradient-to-br from-gray-800 to-slate-900" id="navmenu">
+         absolute top-0 left-0 w-full h-[105vh] align-middle bg-gradient-to-br from-gray-800 to-slate-900" id="navmenu">
           {links.map(({ id, link, link_url }) => (
             <li
               key={id}
@@ -72,7 +84,7 @@ const Navbar = () => {
                   var element = document.getElementById("navmenu");
                   element?.classList.remove('animate-fadein-fast');
                   element?.classList.add('animate-fadeout');
-                  setTimeout(toggleNav, 200);
+                  setTimeout(toggleNav, 190);
 
                   function toggleNav() {
                     setNav(!nav);

@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className="antialiased font-sans z-0 scroll-smooth">
         <Navbar />
         {children}
-        <Footer />
+        <Footer logos={false} />
       </body>
     </html>
   );
