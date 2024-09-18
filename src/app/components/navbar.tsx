@@ -52,7 +52,7 @@ const Navbar = () => {
 
       <div
         onClick={() => {
-          var element = document.getElementById("navmenu");
+          const element = document.getElementById("navmenu");
           element?.classList.remove('animate-fadein-fast');
           element?.classList.add('animate-fadeout');
           setTimeout(toggleNav, 190);
@@ -81,7 +81,7 @@ const Navbar = () => {
               className="px-3 cursor-pointer capitalize py-6 text-3xl text-white hover:text-gray-200 duration-100"
             >
               <Link onClick={() => {
-                  var element = document.getElementById("navmenu");
+                  const element = document.getElementById("navmenu");
                   element?.classList.remove('animate-fadein-fast');
                   element?.classList.add('animate-fadeout');
                   setTimeout(toggleNav, 190);
