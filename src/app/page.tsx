@@ -64,7 +64,7 @@ export default function Home() {
           </div>
           <div>
             <h3 className="text-xl lg:text-2xl">ACLD</h3>
-            <p className="text-md py-2 lg:text-lg">I created this website using Next.js, a framework for React, and currently host it on the Azure Cloud Platform to display my online presence and serve as a frontend webpage for some of my other services.</p>
+            <p className="text-md py-2 lg:text-lg">I created this website using Next.js and TailwindCSS, and currently host it on the Azure Cloud Platform to display my online presence and serve as a frontend webpage for some of my other services.</p>
             <Link href="https://github.com/ActuallyCloud/ACLD-Next" target="_blank"  className="cursor-pointer text-blue-500 lg:text-lg">View this website's source code</Link>
           </div>
           <div>
