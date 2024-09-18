@@ -6,7 +6,7 @@ dotenv.config();
 export default function PlanetRedwood() {
     return (
         <div className="animate-fadein">
-            <div className="cursor-default flex p-4 text-center min-h-96 items-center mx-auto justify-center bg-gradient-to-tr from-red-800 to-yellow-800">
+            <div className="cursor-default flex p-4 text-center min-h-96 items-center mx-auto justify-center bg-gradient-to-tr from-red-800 to-purple-800">
                 <div className="max-w-7xl pt-12 lg:pt-8 p-4 md:p-8">
                     <h1 className="text-3xl md:text-5xl">Welcome, Planet Redwood players!</h1>
                     <p className="md:text-lg p-4">After 10 years of service, the original Planet Redwood was shut down on April 2024. However, I've used the last available world and plugin files available on Dave's website to remake Planet Redwood and host it on my own servers.</p>
