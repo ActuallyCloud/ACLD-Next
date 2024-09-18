@@ -23,8 +23,8 @@ export default function Wellness() {
         </div>
         <div className="p-8 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8" id="down">
             <div className="p-4 text-center">
-                <h2 className="text-xl md:text-2xl pb-4">If it's cute, it's here</h2>
-                <p className="md:text-lg">Wellness serves more than 12 different types of animals and 2 types of foods. Don't see what you like? You can request it to be added on the <Link href="/contact" className="text-blue-500">community discord</Link>.</p>
+                <h2 className="text-xl md:text-2xl pb-4">If it&apos;s cute, it&apos;s here</h2>
+                <p className="md:text-lg">Wellness serves more than 12 different types of animals and 2 types of foods. Don&apos;t see what you like? You can request it to be added on the <Link href="/contact" className="text-blue-500">community discord</Link>.</p>
             </div>
             <div className="p-4 text-center">
                 <h2 className="text-xl md:text-2xl pb-4">Connecting you with others</h2>
@@ -36,11 +36,11 @@ export default function Wellness() {
             </div>
             <div className="p-4 text-center">
                 <h2 className="text-xl md:text-2xl pb-4">Set boundaries</h2>
-                <p className="md:text-lg">Don't want people to spam you, or to receive messages from Wellness at all? That's okay! You can disable messaging functionality with a simple command.</p>
+                <p className="md:text-lg">Don&apos;t want people to spam you, or to receive messages from Wellness at all? That&apos;s okay! You can disable messaging functionality with a simple command.</p>
             </div>
             <div className="p-4 text-center">
                 <h2 className="text-xl md:text-2xl pb-4">Verified and secure</h2>
-                <p className="md:text-lg">Wellness is part of Discord's verified bot program, and your message contents are not read or stored by the bot. Diagnostic logs are anonymous, kept minimal, and only stored for short periods.</p>
+                <p className="md:text-lg">Wellness is part of Discord&apos;s verified bot program, and your message contents are not read or stored by the bot. Diagnostic logs are anonymous, kept minimal, and only stored for short periods.</p>
             </div>
         </div>
         <div className="text-center px-8 sm:pt-4 pb-8 md:pb-12">
@@ -90,7 +90,7 @@ export default function Wellness() {
         <div className="bg-neutral-800 p-8 pb-12">
             <div className="mx-auto max-w-7xl text-center md:p-4">
                 <h3 className="text-xl md:text-2xl">Still not sure?</h3>
-                <p className="text-neutral-300 p-2 pb-8 md:pb-12">Wellness plays nice with other bots and is super easy to add or remove. And if you have any questions, suggestions, or issues, <Link href="/contact" className="text-blue-500">please don't hesitate to reach out</Link>.</p>
+                <p className="text-neutral-300 p-2 pb-8 md:pb-12">Wellness plays nice with other bots and is super easy to add or remove. And if you have any questions, suggestions, or issues, <Link href="/contact" className="text-blue-500">please don&apos;t hesitate to reach out</Link>.</p>
                 { addWellness && 
                     <Link href={addWellness} className="text-xl border-2 rounded-xl p-3 px-8 md:px-12 hover:bg-white/25 duration-100">Try Wellness</Link>
                 }

@@ -1,13 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import dotenv from 'dotenv';
-import { stringify } from "querystring";
 import Footer from "../components/footer";
 dotenv.config();
 
 export default function Contact() {
-    const github = process.env.github
-
     const services = [
         {
             id: 1,
@@ -32,7 +29,7 @@ export default function Contact() {
     return (
         <div className="animate-fadein cursor-default flex p-4 text-center min-h-[90vh] items-center mx-auto justify-center bg-gradient-to-br from-pink-900 to-blue-800">
             <div className="p-8 sm:pt-16">
-                <h1 className="text-2xl sm:text-3xl text-center p-4">Let's get in touch!</h1>
+                <h1 className="text-2xl sm:text-3xl text-center p-4">Let&apos;s get in touch!</h1>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 p-4 mx-auto max-w-64 md:max-w-7xl">
                     {services.map(({ id, name, image, link }) => (
                         <div key={id} className="cursor-pointer p-2 md:p-4 border-2 md:border-4 rounded-3xl md:rounded-2xl hover:bg-white/10 duration-100">
