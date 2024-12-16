@@ -8,11 +8,11 @@ export default function Home() {
     <div className="animate-fadein">
       <div className="cursor-default flex p-4 text-center min-h-screen items-center mx-auto justify-center bg-gradient-to-tl from-gray-800 to-slate-800">
         <div className="p-6 py-8 sm:py-16 max-w-6xl">
-          <Image src="/pfp_fullsize_no_bg.png" className="mx-auto h-auto w-2/3 md:w-96 animate-rotate" width={512} height={512} alt="logo"/>
+          <Image priority={true} src="/pfp_fullsize_no_bg.png" className="mx-auto h-auto w-2/3 md:w-96 animate-rotate" width={512} height={512} alt="logo"/>
           <h1 className="text-3xl md:text-5xl p-4">Looking for Aura?</h1>
           <h3 className="text-lg md:text-2xl p-4">You&apos;ve come to the right place. My website hosts information about my services, my codebase demos, and information about getting in touch.</h3>
           <Link href="#down" className="cursor-default">
-            <Image src="/chevron.png" className="mx-auto m-4 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 animate-fadein-slow cursor-pointer" width={30} height={30} alt="logo"/>
+            <Image priority={true} src="/chevron.png" className="mx-auto m-4 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 animate-fadein-slow cursor-pointer" width={30} height={30} alt="logo"/>
           </Link>
         </div>
       </div>
