@@ -10,14 +10,14 @@ export default function Wellness() {
     <div>
         <div className="cursor-default flex p-4 text-center min-h-screen items-center mx-auto justify-center bg-gradient-to-tl from-green-700 to-cyan-800">
             <div className="p-6 py-8 sm:py-16 max-w-7xl animate-fadein">
-                <Image src="/wellness.png" className="mx-auto h-auto w-2/3 md:w-96 animate-spin-slow" width={384} height={384} alt="logo"/>
+                <Image src="/wellness.png" priority={true} className="mx-auto h-auto w-2/3 md:w-96 animate-spin-slow" width={384} height={384} alt="logo"/>
                 <h1 className="text-3xl md:text-5xl p-4">Cats, dogs, and much more</h1>
                 <h3 className="text-lg md:text-2xl p-2 md:p-4 pb-8 md:pb-12">Wellness serves amazing content to help boost the mental health of users.</h3>
                 { addWellness && 
                     <Link href={addWellness} className="text-xl border-2 md:border-4 rounded-xl p-3 px-8 md:px-12 hover:bg-white/25 duration-100">Add Wellness</Link>
                 }
                 <Link href="#down" className="cursor-default">
-                    <Image src="/chevron.png" className="mx-auto m-6 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 animate-fadein-slow cursor-pointer" width={30} height={30} alt="logo"/>
+                    <Image src="/chevron.png" priority={true} className="mx-auto m-6 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 animate-fadein-slow cursor-pointer" width={30} height={30} alt="logo"/>
                 </Link>
             </div>
         </div>

@@ -37,6 +37,7 @@ export default function Contact() {
                                 <Link href={link} target="_blank">
                                     {image && 
                                         <Image 
+                                            priority={true}
                                             src={image}
                                             className="mx-auto h-auto w-16 sm:w-32 md:w-64 p-4 invert priority" 
                                             alt="logo"
