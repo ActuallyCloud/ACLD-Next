@@ -17,7 +17,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       animation: {
-        'spin-slow': 'spin 20s linear infinite',
+        'spin-slow': 'appear_down 0.4s ease-out, spin 20s 1s ease-in-out infinite',
         'fadein': 'appear_down 0.4s ease-out',
         'fadein-fast': 'appear_down 0.20s ease-out',
         'fadeout': 'disappear 0.20s ease-in',

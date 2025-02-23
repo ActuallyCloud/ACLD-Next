@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import dotenv from 'dotenv';
+import HeaderImg from "../components/headerimg";
 dotenv.config();
 
 export default function Wellness() {
@@ -10,7 +11,7 @@ export default function Wellness() {
     <div>
         <div className="cursor-default flex p-4 text-center min-h-screen items-center mx-auto justify-center bg-gradient-to-tl from-green-700 to-cyan-800">
             <div className="p-6 py-8 sm:py-16 max-w-7xl animate-fadein">
-                <Image src="/wellness.png" priority={true} className="mx-auto h-auto w-2/3 md:w-96 animate-spin-slow" width={384} height={384} alt="logo"/>
+                <HeaderImg imgURL="/wellness.png" imgStyling="mx-auto h-auto w-2/3 md:w-96" imgAnimationClass="animate-spin-slow" imgDimensionW={384} imgDimensionH={384}/>
                 <h1 className="text-3xl md:text-5xl p-4">Cats, dogs, and much more</h1>
                 <h3 className="text-lg md:text-2xl p-2 md:p-4 pb-8 md:pb-12">Wellness serves amazing content to help boost the mental health of users.</h3>
                 { addWellness && 
