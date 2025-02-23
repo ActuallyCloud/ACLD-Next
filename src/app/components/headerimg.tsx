@@ -15,7 +15,7 @@ export default function HeaderImg(props: { imgURL: string, imgStyling: string, i
 
     return (
         <>
-            <Image onLoad={(e) => changeStyling()} src={props.imgURL} className={styling} width={props.imgDimensionW} height={props.imgDimensionH} alt="image"/>
+            <Image onLoad={() => changeStyling()} src={props.imgURL} className={styling} width={props.imgDimensionW} height={props.imgDimensionH} alt="image"/>
         </>
     );
 }
