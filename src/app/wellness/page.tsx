@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import dotenv from 'dotenv';
 import HeaderImg from "../components/headerimg";
@@ -18,7 +17,7 @@ export default function Wellness() {
                     <Link href={addWellness} className="text-xl border-2 md:border-4 rounded-xl p-3 px-8 md:px-12 hover:bg-white/25 duration-100">Add Wellness</Link>
                 }
                 <Link href="#down" className="cursor-default">
-                    <Image src="/chevron.png" priority={true} className="mx-auto m-6 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 animate-fadein-slow cursor-pointer" width={30} height={30} alt="logo"/>
+                    <HeaderImg imgURL="/chevron.png" imgStyling="mx-auto m-6 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 cursor-pointer" imgAnimationClass="animate-fadein-slow" imgDimensionW={30} imgDimensionH={30}/>
                 </Link>
             </div>
         </div>

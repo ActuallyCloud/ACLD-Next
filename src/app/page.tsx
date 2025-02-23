@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import dotenv from 'dotenv';
 import HeaderImg from "./components/headerimg";
@@ -13,7 +12,7 @@ export default function Home() {
           <h1 className="text-3xl md:text-5xl p-4">Looking for Aura?</h1>
           <h3 className="text-lg md:text-2xl p-4">You&apos;ve come to the right place. My website hosts information about my services, my codebase demos, and information about getting in touch.</h3>
           <Link href="#down" className="cursor-default">
-            <HeaderImg imgURL="/chevron.png" imgStyling="mx-auto m-4 p-4 w-12 md:w-16 hover:opacity-70 z-0 cursor-pointer" imgAnimationClass="animate-fadein" imgDimensionW={30} imgDimensionH={30}/>
+            <HeaderImg imgURL="/chevron.png" imgStyling="mx-auto m-4 p-4 w-12 md:w-16 opacity-100 hover:opacity-70 z-0 cursor-pointer" imgAnimationClass="animate-fadein" imgDimensionW={30} imgDimensionH={30}/>
           </Link>
         </div>
       </div>
