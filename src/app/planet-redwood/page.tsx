@@ -13,7 +13,7 @@ export default function PlanetRedwood() {
             </div>
             <div className="cursor-default p-4 md:p-8 max-w-7xl mx-auto text-center">
                 <h2 className="pb-4 text-xl md:text-2xl">Server Details</h2>
-                <p className="p-4 md:text-lg"><b>IP:</b> mc.acld.me - <b>Version:</b> 1.18.2</p>
+                <p className="p-4 md:text-lg"><b>IP:</b> mc.acld.me - <b>Version:</b> 1.18.2 - <b>Having trouble connecting?</b> Try adding the port "25533" to the end of the URL (mc.acld.me:25533)</p>
                 <p className="p-4 md:text-lg">This minecraft server is based off of the original Planet Redwood server as closely as possible using the last available world and plugin files. The server is running the same original plugins that were written by Dave and previous students. The server also abides by largely the same (although simplified) rules and policies that Dave used when creating Planet Redwood:</p>
                 <ul className="p-4 pl-8 md:text-lg text-left list-disc">
                   <li className="p-2 md:text-lg">Do not intentionally cause the server to lag, crash, or otherwise malfunction.</li>
