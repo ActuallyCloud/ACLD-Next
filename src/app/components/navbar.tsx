@@ -20,13 +20,13 @@ const Navbar = () => {
     },
     {
       id: 3,
-      link: "contact",
-      link_url: "/contact",
+      link: "planet redwood",
+      link_url: "/planet-redwood",
     },
     {
       id: 4,
-      link: "gallery",
-      link_url: "/gallery",
+      link: "contact",
+      link_url: "/contact",
     },
     {
       id: 5,
@@ -37,7 +37,7 @@ const Navbar = () => {
 
   return (
     <div className="animate-fadein-fast z-10 flex justify-end sm:justify-around lg:justify-between items-center w-full p-4 text-white fixed nav">
-      <ul className="hidden sm:flex bg-black/50 py-2 rounded-xl">
+      <ul className="hidden sm:flex bg-black/50 py-2 rounded-2xl">
         {links.map(({ id, link, link_url }) => (
           <li
             key={id}
